@@ -2,16 +2,16 @@ import {Button} from "@nextui-org/react";
 import { LuUser2, LuDownload } from "react-icons/lu";
 import { TypeAnimation } from 'react-type-animation';
 import SocialMedia from "./social-media";
-import { SplitText } from "@cyriacbr/react-split-text";
+import { SplitText, WordWrapperProp } from "@cyriacbr/react-split-text";
 import { motion } from "framer-motion";
-import { useEffect, useRef } from "react";
+import { FC, FunctionComponent, useEffect, useRef } from "react";
 import { scroller } from 'react-scroll';
 
 export default function HeroText() {
     const connect = useRef()
 
     function onClick () {
-        document.getElementById("test1")!.scrollIntoView();
+        document.getElementById("test1").scrollIntoView();
     }
 
     return (
@@ -37,7 +37,7 @@ export default function HeroText() {
                         )}
                         className=" pt-1 z-1  sm:min-w-[348px] max-[512px]:text-center font max-[883px]:items-center flex h-[54px] text-transparent "
                     >
-                         Bakoize Nativel
+                        Bakoize Nativel
                     </SplitText>
                 </h1>
                 <SplitText
