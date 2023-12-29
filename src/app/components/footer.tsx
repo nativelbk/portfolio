@@ -17,7 +17,7 @@ export default function Footer () {
                 </div>
                 <div className="flex gap-2 items-center  " >
                     <FaPhone className="text-[20px]" />
-                    <span>+261341328678</span>
+                    <span>+261385991593</span>
                 </div>
                 <div className="flex gap-2 items-center  " >
                     <FaLocationDot className="text-[22px]" />
