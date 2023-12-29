@@ -87,7 +87,7 @@ export default function Nav() {
       </NavbarContent>
         <NavbarMenuToggle
             aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-            onChange={(isMenuOpen: boolean) =>console.log(isMenuOpen)}
+            onChange={(isMenuOpen) =>console.log(isMenuOpen)}
             ref={menu}
             className="sm:hidden max-sm:flex max-sm:justify-end "
         />
