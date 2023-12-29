@@ -38,7 +38,7 @@ export default function Footer () {
                     </Link>
                 ))}
             </section>
-            <section className=" items-center flex gap-2 justify-center  " >
+            <section className=" max-sm:hidden items-center flex gap-2 justify-center  " >
                 <MdCopyright/> Nativel 2023
             </section>
         </main>
