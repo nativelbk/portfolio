@@ -18,17 +18,7 @@ export default function Contact() {
                 CONTACT 
             </Element>
             <section className="font-thin leading-8 text-md mt-14 text-whiteText min-w-[150px] flex  max-md:justify-center max-md:items-center max-md:gap-8 relative items-center  justify-end flex-col " >
-                
-                    <SplitText 
-                        className=" flex justify-center"
-                        WordWrapper={({ children, countIndex }) => (
-                            <motion.span className="inline-block wrapper " viewport={{ once: true }} whileInView={{ y:[15, 1], opacity:[0,1]}} transition={{delay: countIndex*0.05}}  >
-                                &nbsp;{children}
-                            </motion.span>
-                        )}
-                    >
                         N&apos;hesitez à me contacter je répondrai dans les plus bref délais
-                    </SplitText>
                     <Form/>
                     
             </section>
