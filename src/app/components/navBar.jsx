@@ -26,9 +26,9 @@ export const menuItems = [
 export default function Nav() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const toggle = () => {
-    menu.current!.click();
+    menu.current.click();
   }
-  const menu = useRef<HTMLElement>(null)
+  const menu = useRef(null)
   useEffect(()=> {
     setIsMenuOpen(false)
   }, [isMenuOpen])

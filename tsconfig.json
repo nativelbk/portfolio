@@ -22,6 +22,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "tailwind.config.js", "src/app/components/heroText.jsx", "src/app/components/heroText.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "tailwind.config.js", "src/app/components/heroText.jsx", "src/app/components/heroText.jsx", "src/app/components/navBar.jsx"],
   "exclude": ["node_modules"]
 }
