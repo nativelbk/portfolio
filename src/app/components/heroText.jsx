@@ -37,7 +37,7 @@ export default function HeroText() {
                         )}
                         className=" pt-1 z-1  sm:min-w-[348px] max-[512px]:text-center font max-[883px]:items-center flex h-[54px] text-transparent "
                     >
-                        Bakoize Nativel
+                        Bakoize Nativel  
                     </SplitText>
                 </h1>
                 <SplitText

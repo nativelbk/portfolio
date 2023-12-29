@@ -1,23 +1,28 @@
 import Image from 'next/image'
 import { motion } from 'framer-motion'
+import Link from 'next/link'
 
 interface Social {
     src: string
-    alt: string
+    alt: string,
+    link: string
 }
 
 const tab: Social[] = [
     {
         src:'/facebook.svg',
-        alt:'facebook logo'
+        alt:'facebook logo',
+        link:"https://www.facebook.com/joseph.infinity.98"
     },
     {
         src:'/linkedin.svg',
-        alt:'likedin logo'
+        alt:'likedin logo',
+        link: "https://linkedin.com/in/nativel-bakoize-9754a4288"
     },
     {
         src:'/github.svg',
-        alt:'github logo'
+        alt:'github logo',
+        link:"https://github.com/nativelbk/"
     }
 ]
 
@@ -27,7 +32,7 @@ export default function SocialMedia () {
         {
             tab.map((value, index) => {
                 return (
-                    <div className="w-[50px] max-sm:h-[40px] max-sm:w-[40px] select-none m relative h-[50px] rounded-full border-2 border-blue" key={index}  >
+                    <Link href={value.link}  className="w-[50px] max-sm:h-[40px] max-sm:w-[40px] select-none m relative h-[50px] rounded-full border-2 border-blue" key={index}  >
                         <motion.div 
                             whileHover={{
                                 y:1,
@@ -47,7 +52,7 @@ export default function SocialMedia () {
                                 alt={value.alt}
                                 />
                         </motion.div>
-                    </div>
+                    </Link>
                 )
             })
         }

@@ -21,8 +21,8 @@ export default function About() {
             </motion.h2>
             <section className="flex  relative max-[883px]:flex-col items-center justify-around " >
                 <AboutText/>
-                <motion.img animate={{rotate:[0,180],scale:[1,1.2,1]}} drag className=" max-[1194px]:w-[350px] max-[1058px]:w-[300px] hover:cursor-grab active:cursor-grabbing   "
-                    dragConstraints={{ left: 20, right: 20,top:20, bottom:20 }} dragElastic={0.2} transition={{ ease: "linear", duration: 30, repeat: Infinity, repeatType: 'mirror'  }} src="/img2.svg" alt="illustration" 
+                <motion.img animate={{rotate:[0,180],scale:[1,1.3,1]}} drag className=" max-[1194px]:w-[350px] max-[1058px]:w-[300px] hover:cursor-grab active:cursor-grabbing   "
+                    dragConstraints={{ left: 20, right: 20,top:20, bottom:20 }} dragElastic={0.2} transition={{ ease: "linear", duration: 30, repeat: Infinity, repeatType: 'mirror'  }} src="/img2.png" alt="illustration" 
                 />
             </section>
         </section>
