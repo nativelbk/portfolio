@@ -3,7 +3,7 @@ import HeroText from "./heroText";
 import { motion } from "framer-motion";
 export default function Hero() {
     return(
-        <section className="flex  max-lg:justify-between max-lg:px-20 max-md:px-0  max-lg:h-fit max-lg:gap-[80px] max-lg:items-center max-[883px]:flex-col max-[883px]:mt-16  w-[100%] min-h-[90vh] items-center relative justify-around " >
+        <section className="flex  max-lg:justify-between overflow-x-hidden max-lg:px-20 max-md:px-0  max-lg:h-fit max-lg:gap-[80px] max-lg:items-center max-[883px]:flex-col max-[883px]:mt-16  w-[100%] min-h-[90vh] items-center relative justify-around " >
             <img src="/1.svg" className="absolute z-0 w-[40px] top-[90px] left-0"  />
             <img  src="/2.svg" className="absolute z-0 max-[1276px]:left-[10px] max-[1002px]:left-[60px] top-[20px] left-[60px] w-[40px]"  />
             <img src="/3.svg" className="absolute z-0 bottom-[20px] left-0 w-[90px] "  />
