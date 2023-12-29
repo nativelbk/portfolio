@@ -11,10 +11,9 @@ export default function HeroText() {
     const connect = useRef()
 
     function onClick () {
-        document?.getElementById("test1").scrollIntoView();
-        console.log("clicked");
+        document.getElementById("test1")!.scrollIntoView();
     }
-  
+
     return (
         <motion.section  transition={{duration:1}} animate={{
             x:[-5,0],
