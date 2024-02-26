@@ -50,7 +50,7 @@ export default function Nav() {
         </NavbarItem>
         <Spacer/>
         <NavbarItem >
-          <Link  activeClass="active" activeStyle={{color:'red'}} to="about" 
+          <Link  activeClass="active"  to="about" 
       spy={true} 
       smooth={true} 
       offset={-70} 
