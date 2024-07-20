@@ -21,7 +21,7 @@ export default function AboutText () {
                             )}
                             className=" text-justify "
                         > */}
-                            Étant actuellement un étudiant de l&apos;ENI (Ecole Nationale d&apos;Informatique) Fianarantsoa, je suis passioné par le développement web et les technologies du web en partculier le javascript et ses frameworks. Je suis une personne dynamique qui a toujours envie d&apos;apprendre de nouvelles choses et de constamment me perfectionner.
+                            Ayant un solide expérience dans le développement web, je suis passioné par les technologies du web en partculier le javascript et ses frameworks. Je suis une personne dynamique qui a toujours envie d&apos;apprendre de nouvelles choses et de constamment me perfectionner.
                         {/* </SplitText> */}
                     </section>
                 </main>
