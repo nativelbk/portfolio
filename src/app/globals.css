@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -18,43 +19,46 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-    background-image: url('/Ellipse5.svg');
-    background-repeat: no-repeat;
-    font-family: 'Merriweather Sans', sans-serif;
+  background-image: url('/Ellipse5.svg');
+  background-repeat: no-repeat;
+  font-family: 'Merriweather Sans', sans-serif;
 }
 
-.about{
+.about {
   background-image: url('/Ellipse4.svg');
   background-repeat: no-repeat;
 }
 
 .active {
-  color:rgb(255, 196, 0);
+  color: rgb(255, 196, 0);
 }
 
 .bg {
   background: linear-gradient(180deg, #285EB2 0%, #47A4FF 100%);
-box-shadow: 0px 4.933px 9.867px 0px rgba(12, 27, 51, 0.49), 0px 2.313px 2.313px 0px #4CAEFF inset, 0px -2.313px 2.313px 0px #24539F inset;
+  box-shadow: 0px 4.933px 9.867px 0px rgba(12, 27, 51, 0.49), 0px 2.313px 2.313px 0px #4CAEFF inset, 0px -2.313px 2.313px 0px #24539F inset;
 }
 
 .link {
   background: linear-gradient(180deg, #49A8FF 0%, #2759AA 100%);
-box-shadow: 0px 4.933px 9.867px 0px rgba(12, 27, 51, 0.54), 0px 2.489px 2.489px 0px #4DB3FF inset, 0px -2.489px 2.489px 0px #224E95 inset;
+  box-shadow: 0px 4.933px 9.867px 0px rgba(12, 27, 51, 0.54), 0px 2.489px 2.489px 0px #4DB3FF inset, 0px -2.489px 2.489px 0px #224E95 inset;
 }
 
 .skill {
   background: rgba(255, 255, 255, 0.10);
-box-shadow: -2.467px 2.467px 2.467px 0px rgba(255, 255, 255, 0.10) inset, 2.467px -2.467px 2.467px 0px rgba(194, 194, 194, 0.10) inset;
-backdrop-filter: blur(2.4666666984558105px);
+  box-shadow: -2.467px 2.467px 2.467px 0px rgba(255, 255, 255, 0.10) inset, 2.467px -2.467px 2.467px 0px rgba(194, 194, 194, 0.10) inset;
+  backdrop-filter: blur(2.4666666984558105px);
 }
-.field{
+
+.field {
   border: 1px solid #ffffff57;
-background: rgba(20, 29, 46, 0.81);
-color: rgba(255, 255, 255, 0.89);
+  background: rgba(20, 29, 46, 0.81);
+  color: rgba(255, 255, 255, 0.89);
 }
+
 .field::placeholder {
   color: rgba(255, 255, 255, 0.689);
 }
+
 .font {
   font-family: 'Gochi Hand', cursive;
 }
@@ -64,43 +68,72 @@ color: rgba(255, 255, 255, 0.89);
   background-repeat: no-repeat;
 }
 
-.card--info{
+.card--info {
   border-radius: 5px;
-/* border: 1px solid rgba(217, 217, 217, 0.50); */
-border: 1px solid rgba(255, 255, 255, 0.19);
+  /* border: 1px solid rgba(217, 217, 217, 0.50); */
+  border: 1px solid rgba(255, 255, 255, 0.19);
 
-background: rgba(141, 132, 132, 0.13);
-backdrop-filter: blur(20.66666603088379px);
-width: 290px;
-height: 330px;
+  background: rgba(141, 132, 132, 0.13);
+  backdrop-filter: blur(20.66666603088379px);
+  width: 290px;
+  height: 330px;
 }
 
 .name--container {
   width: 200px;
-height: 40px;
-flex-shrink: 0;
+  height: 40px;
+  flex-shrink: 0;
   border-radius: 0px 40px 40px 0px;
-background: linear-gradient(180deg, #4196FF 0%, #3171D6 100%);
-box-shadow: 0px 20.133px 40.267px 0px rgba(12, 27, 51, 0.25), 0px 6.711px 6.711px 0px #439BFF inset, 0px -6.711px 6.711px 0px #2E6BCC inset;
+  background: linear-gradient(180deg, #4196FF 0%, #3171D6 100%);
+  box-shadow: 0px 20.133px 40.267px 0px rgba(12, 27, 51, 0.25), 0px 6.711px 6.711px 0px #439BFF inset, 0px -6.711px 6.711px 0px #2E6BCC inset;
 }
 
 .info--container {
   border-radius: 5px;
-background: linear-gradient(180deg, #4196FF 0%, #3171D6 100%);
-box-shadow: 0px 32.933px 65.867px 0px rgba(12, 27, 51, 0.25), 0px 10.978px 10.978px 0px #439BFF inset, 0px -10.978px 10.978px 0px #2E6BCC inset;
-width: 250px;
-height: 200px;
-margin: 0 auto;
+  background: linear-gradient(180deg, #4196FF 0%, #3171D6 100%);
+  box-shadow: 0px 32.933px 65.867px 0px rgba(12, 27, 51, 0.25), 0px 10.978px 10.978px 0px #439BFF inset, 0px -10.978px 10.978px 0px #2E6BCC inset;
+  width: 250px;
+  height: 200px;
+  margin: 0 auto;
 }
 
 .info--button {
   border-radius: 5px;
-background: linear-gradient(180deg, #FF0 0%, #D6C100 100%);
-box-shadow: 0px 9.667px 19.333px 0px rgba(51, 46, 0, 0.25), 0px 3.222px 3.222px 0px #FF0 inset, 0px -3.222px 3.222px 0px #CCB800 inset;
-width: 100px;
-height: 40px;
+  background: linear-gradient(180deg, #FF0 0%, #D6C100 100%);
+  box-shadow: 0px 9.667px 19.333px 0px rgba(51, 46, 0, 0.25), 0px 3.222px 3.222px 0px #FF0 inset, 0px -3.222px 3.222px 0px #CCB800 inset;
+  width: 100px;
+  height: 40px;
 }
-header{
+
+header {
   padding-left: 0 !important;
   padding-right: 0 !important;
+}
+
+@media screen and (max-width: 1024px) {
+  header {
+    max-width: 850px !important;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  header {
+    max-width: 700px !important;
+  }
+}
+@media screen and (max-width: 725px) {
+  header {
+    max-width: 630px !important;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  header {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+}
+
+.image{
+  user-select: none;
 }

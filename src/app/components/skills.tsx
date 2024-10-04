@@ -116,7 +116,7 @@ export default function Skills () {
             <h2 id="skills" className="font-semibold flex justify-center text-2xl " >
                 COMPETENCES
             </h2>
-            <main className="flex gap-4 mt-10 max-w-[1024px] flex-wrap mt-10 justify-between " >
+            <main className="flex gap-4 mt-10 max-w-[1024px] max-[1024px]:max-w-[850px] max-[870px]:max-w-[700px] max-[725px]:justify-center max-[725px]:max-w-[630px] flex-wrap mt-10 justify-between " >
                 {
                     tab.map((value,index)=><SkillCard {...value} key={index} />)
                 }

@@ -34,7 +34,7 @@ export default function Nav() {
   }, [isMenuOpen])
 
   return (
-    <Navbar className="bg-[rgba(20,29,46,.8)] px-0 max-sm:flex max-sm:justify-around " >
+    <Navbar className="bg-[rgba(20,29,46,.8)]  px-0 max-sm:flex max-sm:justify-around " >
       <NavbarBrand className="text-yellow" >
         <p className="font-bold text-inherit">NB</p>
       </NavbarBrand>

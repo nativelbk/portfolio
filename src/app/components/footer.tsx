@@ -8,8 +8,8 @@ import { MdCopyright } from "react-icons/md";
 
 export default function Footer() {
     return (
-        <main className="flex gap-12 p-4  justify-center bg-frame border-1.5 border-whiteBorder " >
-            <div className="flex gap-[100px] " >
+        <main className="flex gap-12 p-4  justify-center bg-frame  border-whiteBorder " >
+            <div className="flex gap-[100px] max-[442px]:gap-[40px]  " >
                 <section className="text-white flex flex-col gap-3 " >
                     <h2 className="text-blue text-2xl " > Informations </h2>
                     <div className="flex gap-2 items-center  " >
