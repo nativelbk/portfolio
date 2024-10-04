@@ -112,11 +112,11 @@ export default function Skills () {
 
 
     return(
-        <section  >
+        <section className="flex flex-col justify-center items-center" >
             <h2 id="skills" className="font-semibold flex justify-center text-2xl " >
                 COMPETENCES
             </h2>
-            <main className="flex gap-4 flex-wrap mt-10 justify-center " >
+            <main className="flex gap-4 mt-10 max-w-[1024px] flex-wrap mt-10 justify-between " >
                 {
                     tab.map((value,index)=><SkillCard {...value} key={index} />)
                 }

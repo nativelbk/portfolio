@@ -7,7 +7,7 @@ import { FaArrowRight } from "react-icons/fa6";
 
 export default function SkillCard ({name, src, alt, id}:  LangageInfo) {
     return (
-        <motion.section viewport={{once: true}} transition={{delay: id<4 ? id * 0.3: (id-(id/2))*0.3, duration:0.5}} whileInView={{
+        <motion.section viewport={{once: true}} transition={{delay: 0.5 , duration:0.5}} whileInView={{
             y: [60, -10, 0],
             opacity:[0,1],
         }}
