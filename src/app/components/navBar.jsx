@@ -40,7 +40,7 @@ export default function Nav() {
       </NavbarBrand>
       <NavbarContent className="hidden  sm:flex gap-4" justify="center">
         <NavbarItem >
-          <Link activeClass="active" activeStyle={{ color: 'red' }} to="home"
+          <Link activeClass="active" to="home"
             spy={true}
             smooth={true}
             duration={500} href="#">
@@ -50,6 +50,7 @@ export default function Nav() {
         <Spacer />
         <NavbarItem >
           <Link activeClass="active" to="about"
+
             spy={true}
             smooth={true}
             offset={-70}
@@ -62,6 +63,7 @@ export default function Nav() {
         <Spacer />
         <NavbarItem>
           <Link activeClass="active" to="skills"
+
             spy={true}
             smooth={true}
             offset={-70}
@@ -74,6 +76,7 @@ export default function Nav() {
         <Spacer />
         <NavbarItem>
           <Link activeClass="active" to="test1"
+
             spy={true}
             smooth={true}
             // offset={50} 
